@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E9902EA295A401C00A94A3C /* TrafficLigthsSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9902E9295A401C00A94A3C /* TrafficLigthsSwiftUIApp.swift */; };
+		3E9902EA295A401C00A94A3C /* TrafficLightsSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9902E9295A401C00A94A3C /* TrafficLightsSwiftUIApp.swift */; };
 		3E9902EC295A401C00A94A3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9902EB295A401C00A94A3C /* ContentView.swift */; };
 		3E9902EE295A401E00A94A3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E9902ED295A401E00A94A3C /* Assets.xcassets */; };
 		3E9902F1295A401E00A94A3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E9902F0295A401E00A94A3C /* Preview Assets.xcassets */; };
+		3E9902F8295A47C500A94A3C /* TrafficLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9902F7295A47C500A94A3C /* TrafficLightView.swift */; };
+		3E9902FA295A4CAF00A94A3C /* ChangeColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9902F9295A4CAF00A94A3C /* ChangeColorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E9902E6295A401C00A94A3C /* TrafficLigthsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLigthsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E9902E9295A401C00A94A3C /* TrafficLigthsSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLigthsSwiftUIApp.swift; sourceTree = "<group>"; };
+		3E9902E6295A401C00A94A3C /* TrafficLightsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLightsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E9902E9295A401C00A94A3C /* TrafficLightsSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightsSwiftUIApp.swift; sourceTree = "<group>"; };
 		3E9902EB295A401C00A94A3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E9902ED295A401E00A94A3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E9902F0295A401E00A94A3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E9902F7295A47C500A94A3C /* TrafficLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightView.swift; sourceTree = "<group>"; };
+		3E9902F9295A4CAF00A94A3C /* ChangeColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +39,7 @@
 		3E9902DD295A401C00A94A3C = {
 			isa = PBXGroup;
 			children = (
-				3E9902E8295A401C00A94A3C /* TrafficLigthsSwiftUI */,
+				3E9902E8295A401C00A94A3C /* TrafficLightsSwiftUI */,
 				3E9902E7295A401C00A94A3C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +47,22 @@
 		3E9902E7295A401C00A94A3C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E9902E6295A401C00A94A3C /* TrafficLigthsSwiftUI.app */,
+				3E9902E6295A401C00A94A3C /* TrafficLightsSwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3E9902E8295A401C00A94A3C /* TrafficLigthsSwiftUI */ = {
+		3E9902E8295A401C00A94A3C /* TrafficLightsSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				3E9902E9295A401C00A94A3C /* TrafficLigthsSwiftUIApp.swift */,
+				3E9902E9295A401C00A94A3C /* TrafficLightsSwiftUIApp.swift */,
 				3E9902EB295A401C00A94A3C /* ContentView.swift */,
 				3E9902ED295A401E00A94A3C /* Assets.xcassets */,
 				3E9902EF295A401E00A94A3C /* Preview Content */,
+				3E9902F7295A47C500A94A3C /* TrafficLightView.swift */,
+				3E9902F9295A4CAF00A94A3C /* ChangeColorButton.swift */,
 			);
-			path = TrafficLigthsSwiftUI;
+			path = TrafficLightsSwiftUI;
 			sourceTree = "<group>";
 		};
 		3E9902EF295A401E00A94A3C /* Preview Content */ = {
@@ -70,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3E9902E5295A401C00A94A3C /* TrafficLigthsSwiftUI */ = {
+		3E9902E5295A401C00A94A3C /* TrafficLightsSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E9902F4295A401E00A94A3C /* Build configuration list for PBXNativeTarget "TrafficLigthsSwiftUI" */;
+			buildConfigurationList = 3E9902F4295A401E00A94A3C /* Build configuration list for PBXNativeTarget "TrafficLightsSwiftUI" */;
 			buildPhases = (
 				3E9902E2295A401C00A94A3C /* Sources */,
 				3E9902E3295A401C00A94A3C /* Frameworks */,
@@ -82,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = TrafficLigthsSwiftUI;
+			name = TrafficLightsSwiftUI;
 			productName = TrafficLigthsSwiftUI;
-			productReference = 3E9902E6295A401C00A94A3C /* TrafficLigthsSwiftUI.app */;
+			productReference = 3E9902E6295A401C00A94A3C /* TrafficLightsSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3E9902E1295A401C00A94A3C /* Build configuration list for PBXProject "TrafficLigthsSwiftUI" */;
+			buildConfigurationList = 3E9902E1295A401C00A94A3C /* Build configuration list for PBXProject "TrafficLightsSwiftUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E9902E5295A401C00A94A3C /* TrafficLigthsSwiftUI */,
+				3E9902E5295A401C00A94A3C /* TrafficLightsSwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E9902F8295A47C500A94A3C /* TrafficLightView.swift in Sources */,
 				3E9902EC295A401C00A94A3C /* ContentView.swift in Sources */,
-				3E9902EA295A401C00A94A3C /* TrafficLigthsSwiftUIApp.swift in Sources */,
+				3E9902EA295A401C00A94A3C /* TrafficLightsSwiftUIApp.swift in Sources */,
+				3E9902FA295A4CAF00A94A3C /* ChangeColorButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +274,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TrafficLigthsSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TrafficLightsSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = YQHRAS38BD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -275,6 +283,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,9 +291,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.av-studio.TrafficLigthsSwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -295,7 +307,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TrafficLigthsSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TrafficLightsSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = YQHRAS38BD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -304,6 +316,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,16 +324,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.av-studio.TrafficLigthsSwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E9902E1295A401C00A94A3C /* Build configuration list for PBXProject "TrafficLigthsSwiftUI" */ = {
+		3E9902E1295A401C00A94A3C /* Build configuration list for PBXProject "TrafficLightsSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E9902F2295A401E00A94A3C /* Debug */,
@@ -329,7 +345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E9902F4295A401E00A94A3C /* Build configuration list for PBXNativeTarget "TrafficLigthsSwiftUI" */ = {
+		3E9902F4295A401E00A94A3C /* Build configuration list for PBXNativeTarget "TrafficLightsSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E9902F5295A401E00A94A3C /* Debug */,
